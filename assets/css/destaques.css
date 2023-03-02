@@ -1,7 +1,10 @@
-.destaques{
+.secao-centralizada{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.destaques{
     transition: 200ms;
 }
 
@@ -12,8 +15,12 @@
 .titulo-secao{
     font-weight: 700;
     font-size: 28px;
-    color: var(--fundo-lista-cabecalho);
+    color: var(--branco);
     margin: 2.5rem 0;
+    background-color: var(--fundo-lista-cabecalho);
+    width: 100%;
+    padding: .5rem 0;
+    text-align: center; 
 }
 
 .destaques__conteudo{
@@ -21,8 +28,8 @@
     height: 60rem;
     display: grid;
     grid-gap: 2%;
-    grid-template-columns: 49% 49%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas:
         'card1 card2'
         'card1 card3'
@@ -35,7 +42,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 2rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -92,6 +98,5 @@
     margin: 0;
     padding: .5rem 0;
     font-size: 16px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }

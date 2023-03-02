@@ -1,5 +1,7 @@
 @import url('./cabecalho.css');
 @import url('./destaques.css');
+@import url('./noticias.css');
+@import url('./rodape.css');
 
 :root{
     --fonte-principal: 'Poppins';

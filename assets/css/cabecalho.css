@@ -48,9 +48,9 @@
     position: absolute;
     top: 100%;
     background-color: var(--fundo-lista-cabecalho);
-    padding: .5rem .5rem;
+    padding: 1rem;
     right: 0;
-    width: 35%;
+    width: 45%;
     border-bottom-left-radius: 15px;
 }
 
@@ -63,8 +63,5 @@
     line-height: 27px;
     color: var(--branco);
     text-transform: uppercase;
-}
-
-.lista__link:active{
-    text-decoration: none;
+    font-size: 18px;
 }
