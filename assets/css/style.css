@@ -1,0 +1,16 @@
+@import url('./cabecalho.css');
+@import url('./destaques.css');
+
+:root{
+    --fonte-principal: 'Poppins';
+    --borda-inferior-cabecalho: rgb(163, 163, 163);
+    --branco: #fff;
+    --fundo-lista-cabecalho: rgb(255, 123, 0);
+    --fundo-titulo-card: rgba(0, 0, 0, 0.486);
+    --titulo-pagina: rgb(0, 0, 0);
+}
+
+body{
+    font-family: var(--fonte-principal);
+    height: 100%;
+}
